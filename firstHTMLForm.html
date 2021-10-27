@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action ="/my-handling-form-page" method="post">
+        <div>
+            <label for="name">&emsp;Name:</label>
+            <input type="text" id ="name" name = "user_name">
+            <br>
+        </div>
+        <div>
+            <label for="mail">&nbsp;&ensp;E-mail:</label>
+            <input type="email" id ="mail" name = "user_mail">
+            <br>
+        </div>
+        <div>
+            <label for="msg">Message:</label>
+            <textarea id="msg" name ="user_message"></textarea>
+        </div>
+        <div class="button">
+            <button type="submit">&emsp;Send your message</button>
+            <br>
+        </div>
+
+    </form>
+    <form>
+        <fieldset>
+            <legend>Fruit juice size</legend>
+            <p>
+                <input type="radio" name="size" id="size_1" value="small">
+                <label for="size_1">Small</label>
+            </p>
+            <p>
+                <input type="radio" name="size" id="size_2" value="medium">
+                <label for="size_2">Medium</label>
+            </p>
+            <p>
+                <input type="radio" name="size" id="size_3" value="large">
+                <label for="size_3">Large</label>
+            </p>
+        </fieldset>
+    </form>
+    <form>
+        Gender:
+        <input type="radio" name="gender" value="0" checked="checked">Male
+        <input type="radio" name="gender" value="1">Female
+    </form>
+
+</body>
+</html>
